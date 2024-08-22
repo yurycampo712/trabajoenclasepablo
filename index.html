@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 02</title>
+    <meta name= "description" content= "contenido academico">
+    <link rel="shourtcut icon" href="img/log.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header class ="header backgraund">
+        encabezado
+        <article class="border">logo</article>
+        <nav class="border menuprincipal">
+            <ul class="menu1">
+                <li class="item"></li>
+                    <a href="registro.html" target="_blank">registro</a>
+                <li class="item"></li>
+                    <a href="https://es.wikipedia.org/wiki/Sol" target="_blank">nosotros</a>
+                <li class="item"></li>
+                    <a href="h" target="_blank">galeria</a>
+                <li class="item"></li>
+                    <a href="#listas">listas</a>
+                <li class="item"></li>
+                    <a href="registro.html#parrafo2" target="parrafo2">parrafo2</a>
+            </ul>
+        </nav>
+        <br>
+        <nav class="border">
+            login
+        </nav>
+    </header>
+    <main class="main">
+        <section class="encabezados border fondo">
+            <h1>encabezado</h1>
+            <h2>encabezado</h2>
+            <h3>encabezado</h3>
+            <h4>encabezado</h4>
+            <h5>encabezado</h5>
+            <h6>encabezado</h6>
+            <blockquote cite="https://es.wikipedia.org/wiki/Sol">el sol</blockquote>
+        </section>
+        <br>
+        <section class="border">
+            <h1 id = "listas">listas</h1>
+            <a href="#top">subir</a>
+            <h2>listas ordenadas</h2>
+            <ol>
+                <li>1 item</li>
+                <li>2 item</li>
+                <li>3 item</li>
+                <li>4 item</li>
+                <li>5 item</li>
+            </ol>
+            <h3>listas desordenadas</h3>
+            <ul>
+                <li>item</li>
+                <li>item</li>
+                <li>item</li>
+                <li>item</li>
+                <li>item</li>
+            </ul>
+            <h4>listas de definicion</h4>
+            <dl>
+                <dt><strong>Termino1|</strong></dt>
+                <dd><i>descripcion del termino 1</i></dd>
+                <dt>termino 2</dt>
+                <dd><i>descripcion del termino 2</i></dd>
+            </dl>
+        </section>
+        <section>
+            <h1>TABLAS</h1>
+
+            <table>
+                <caption class="border">titulo de la tabla</caption>
+                <thead>
+                    <tr>
+                        <th class="border">Hora</th>
+                        <th class="border">lunes</th>
+                        <th class="border">martes</th>
+                        <th class="border">miercoles</th>
+                        <th class="border">jueves</th>
+                        <th class="border">viernes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border">7:00 - 10:00</td>
+                        <td class="border">Etica</td>
+                        <td class="border" rowspan="2" >algoritmos</td>
+                        <td class="border">diseño web</td>
+                        <td class="border">bases de datos</td>
+                        <td class="border">matematicas</td>
+                    </tr>
+                    <tr>
+                        <td class="border">7:00 - 10:00</td>
+                        <td class="border">Etica</td>
+                        <td class="border">diseño web</td>
+                        <td class="border">bases de datos</td>
+                        <td class="border">matematicas</td>
+                    </tr>
+                    <tr>
+                        <td class="border" colspan="6">DESCANSO</td> 
+                    </tr>
+                    <tr>
+                        <td class="border">7:00 - 10:00</td>
+                        <td class="border">Etica</td>
+                        <td class="border">algoritmos</td>
+                        <td class="border">diseño web</td>
+                        <td class="border">bases de datos</td>
+                        <td class="border">matematicas</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <td class="border" colspan=" 6">adso 2024</td>
+                </tfoot>
+            </table>
+        </section>
+        <br>
+        <section class="border">
+            <h1>formularios</h1>
+            <form action="registro.html" class="form">
+                
+                <div> <br>
+                    <label for="nombre">ingrese nombre </label>
+                    <input id="nombre" type="text">
+                </div>
+
+                <section> <br>
+                    <label for="apellido">ingrese su apellido</label>
+                    <input id="apellido" type="text" name="nombre" placeholder="reyes" required>
+                </section>
+                <div> <br>
+                    <fieldset>
+                    <legend>seleccione un genero</legend>
+                    <input name="genero" type="radio" value="maculino">masculino
+                    <input name="genero" type="radio" value="femenino">femenino
+                    <input neme="genero" type="radio" value="nosabe">nosabe
+                    </fieldset>
+                </div>
+                <div> <br>
+                    <fieldset>
+                    <legend>seleccione un hobbie </legend>
+                    <input name="genero" type="checkbox" value="maculino">masculino
+                    <input name="genero" type="checkbox" value="femenino">femenino
+                    <input neme="genero" type="checkbox" value="nosabe">nosabe
+                    </fieldset>
+                </div> <br>
+                <div>
+                    <label for="pais">seleccione su pais</label>
+                    <select name="pais" id="pais">
+                        <option value="colombia">colombia</option>
+                        <option value="ecuador">ecuador</option>
+                        <option value="chile">chile</option>
+
+                    </select>
+                </div><br>
+                <div>
+                    <label for="fecha">fecha nacimiento</label>
+                    <input type="date" name="fecha" id="fecha">
+                </div>
+                <div> <br>
+                    <label for="ciudad">seleccione ciudad </label>
+                    <input id="ciudad" type="text">
+                </div>
+                <article> <br>
+                    <label for="email">ingrese su correo</label>
+                    <input id="email" type="email">
+                </article>
+                <div> <br>
+                    <label for="contraseña">ingrese contraseña </label>
+                    <input id="contraseña" type="password">
+                </div>
+                <div> <br>
+                    <label for="doc">suba archivo</label>
+                    <input id="doc" type="file">
+                </div>
+                <div> <br>
+                    <label for="msj">escriba su msj</label>
+                    <textarea name="msj" id="msj">escriba aqui su msj</textarea>
+                </div> <br> 
+                <button >registro</button>
+            </form>
+        </section>
+        <br>
+        <section>
+            <h1>MULTIMEDIA</h1>
+            <article class="images">
+                <img  class= "titulo" src="img/hongo.jpg "alt="Marca">
+            </article>
+            <section>
+                <video src=""></video>
+            </section>
+            <section class="video">
+                <iframe class="dread" width="560" height="315" src="https://www.youtube.com/embed/lWKaMeJRiik?si=yRkEBdXaNgY-guse" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </section>
+            <section class="audio">
+                <audio src="sonido/" controls></audio>
+            </section>
+            <section class="images">
+                <h1>bordes</h1>
+                <p class="border">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto omnis corrupti eos nostrum nobis at iure molestias saepe et, cumque, a dolor nesciunt ex soluta. Ipsa tempora voluptatum illum temporibus?*</p>
+                <p class="borderparrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam soluta numquam fugit, quae eaque ipsum explicabo nam nisi quos expedita eum non quam molestiae dolore libero animi nesciunt commodi nobis.
+                Accusamus ullam inventore saepe aut eaque necessitatibus distinctio fugit soluta quasi vero exercitationem id hic tenetur nam, nobis neque, doloremque corrupti, veritatis dolorem! Maxime, sequi? Tempora, sapiente illum. Voluptatem, unde.
+                Voluptates debitis maiores architecto veritatis mollitia, repellat vel ratione officia animi dolorum? Eum unde, reiciendis voluptatum necessitatibus assumenda sunt debitis beatae maiores autem, facilis ad doloremque id. Nulla, corrupti mollitia?
+                Cum quae explicabo optio dolorem impedit, laborum veritatis facere natus tempore vero architecto beatae accusamus iure alias non ducimus nihil dolores asperiores voluptas enim ipsa est et! Nisi, aperiam tenetur!
+                Porro voluptas culpa odit soluta illo consequatur aspernatur sapiente, voluptatibus veritatis neque sint ut, deleniti omnis aperiam ad sed libero quidem impedit sunt. Perferendis autem, nisi quo ipsum aspernatur optio?
+                Fugit, sint et deserunt, architecto nemo aliquid ut sequi, ipsum delectus minus dignissimos atque. Omnis labore dolore enim non, exercitationem dolores ullam, ipsa ratione voluptatibus iure dolor asperiores distinctio officia.</p>
+                <p class="shadow">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas aliquid expedita inventore rerum unde vitae atque dolorum sequi accusamus, tempore quisquam cumque libero deserunt consequatur, repellat sapiente doloremque vel. Exercitationem?
+                Soluta eos quia quod libero sunt fugit? Adipisci nisi, ipsam modi distinctio odit tempore natus ipsa fuga dignissimos error nulla? Asperiores velit fugiat itaque voluptatum dolorum dignissimos sit, alias sequi!
+                Vero aperiam eaque, laudantium incidunt magni dolor officiis unde tempore quas commodi nostrum quidem nemo, quia harum. Aliquid quisquam repudiandae in, recusandae laudantium laboriosam veniam magnam vero nobis illo maiores.
+                Voluptatem vero perspiciatis, praesentium provident id, architecto dignissimos quibusdam similique quos quia excepturi reiciendis quis voluptate saepe magni. Saepe at quasi quae nostrum. Dignissimos perferendis doloribus beatae. Natus, expedita dicta.
+                Et voluptate aspernatur sit fugiat deleniti, expedita harum autem iure? Corrupti iusto doloremque quo molestiae doloribus ipsa dignissimos sint? Et, odit. Unde vitae impedit doloribus cupiditate nemo nobis voluptates vero.</p>
+            </section>
+        </section>
+        <section class="border">
+            <h1>parrafos</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti natus perspiciatis rerum et labore pariatur beatae nostrum quos corporis quisquam, fugit ipsa sapiente saepe velit omnis provident voluptatum voluptate perferendis.</p>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, tempore ipsum. Quaerat soluta incidunt tenetur natus esse, id saepe deleniti quae sit laborum, reiciendis dolore maiores commodi cum ducimus quo?
+            </p>
+            <b>hola</b>
+            <strong>hola</strong>
+            <i>hola</i>
+            <em>hola</em>
+            <small>hola</small>
+            <del>hola</del>
+            <ins>hola</ins>
+            <sub>hola</sub>
+            <sup>hola</sup>
+
+        </section>
+    </main>
+    <footer class="footer">pie del documento</footer>
+</body>
+</html>

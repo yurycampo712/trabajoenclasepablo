@@ -1,0 +1,85 @@
+body{
+    background-color: rgba(248, 245, 245, 0.918);
+}
+.header{
+    border: 1px solid green;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main{
+    border: 1px solid green;
+}
+.footer{
+    border: 1px solid green;
+    height: 20vh;
+}
+.border{
+    border: 1px solid rgb(0, 128, 117);
+}
+.backgraund{
+    background-color: rgb(235, 55, 190);
+}
+.menuprincipal{
+    width: 40%;
+}
+.menu1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.item{
+    list-style: none;
+}
+.form{
+    width: 40%;/*ancho del formulario*/
+    margin: auto;/*para centrar formulario*/
+    border: 1px solid green;
+    margin-top: 10px;
+    margin-bottom: 10%;
+    text-align: center;
+}
+.images{
+    width: 50%;
+    margin: auto;
+    border: 1px solid red;
+}
+.titulo{
+    max-width: 100%;
+    min-width: 20%;
+}
+.video{
+    width: 50%;
+    margin: auto;
+    border: 1px solid red;
+}
+.dread{
+    max-width: 100%;
+    min-width: 20%;
+}
+.border{
+    border: 2px solid  green;
+    border-top: 2px solid red;
+}
+.borderparrafo{
+    border: 2px solid green;
+    border-radius: 10px;
+}
+.shadow{
+    border: 2px solid green;
+    box-shadow: 15px 15px 10px black,
+    5px 3px 0px blue,
+    7px 3px 0px green;
+}
+.shadow{
+    text-shadow: 3px 3px 0px red,
+    5px 3px 0px blue,
+    7px 3px 0px green;
+   
+}
+.fondo{
+    background-size: contain;
+    background-image: url(/img/hongo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}

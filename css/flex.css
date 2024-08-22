@@ -1,0 +1,33 @@
+body{
+    background-color: aqua;
+}
+.bordes{
+    border: 1px solid black;
+}
+.estilo{
+    border: 1px solid red;
+    background-color: blue;
+}
+.container-header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item1{
+    order: 1;
+    flex-grow: 2;
+}
+.item2{
+    order: 2;
+
+}
+.item3{
+    order: 3;
+    align-self: flex-end;
+    flex-grow: 3;
+}
+.item4{
+    order: 4;
+    flex-shrink: 4;
+}
+
